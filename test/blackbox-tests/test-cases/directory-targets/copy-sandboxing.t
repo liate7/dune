@@ -2,8 +2,7 @@ Sandbox a rule that depends on a directory target using the copying sandbox
 mode:
 
   $ cat >dune-project <<EOF
-  > (lang dune 3.8)
-  > (using directory-targets 0.1)
+  > (lang dune 3.13)
   > EOF
 
   $ cat >print-permissions.sh <<EOF
